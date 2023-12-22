@@ -3,7 +3,7 @@ import BasicImage from "../components/BasicImage";
 import ColorfulTitle from "../components/ColorfulTitle";
 import Button from "../components/DefaultButton";
 import DescriptionCard from "../components/DescriptionCard";
-import { ABOUT_BLOGS, ABOUT_SKILLS } from "../consts";
+import { ABOUT_BLOGS, ABOUT_SKILLS, CV_PATH } from "../consts";
 import MainWrapper from "../layouts/MainWrapper.astro";
 ---
 
@@ -24,7 +24,7 @@ import MainWrapper from "../layouts/MainWrapper.astro";
           {ABOUT_SKILLS}
         </p>
         <div class="flex gap-4 mt-4">
-          <a href="/saramsha_shrestha_resume _cv.pdf">
+          <a href={CV_PATH}>
             <Button>Download My Resume</Button>
           </a>
           <a href="/blog">
