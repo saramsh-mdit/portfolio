@@ -1,0 +1,22 @@
+.colorfulBtn {
+  @apply font-semibold py-2 px-4 text-sm md:text-base rounded-lg text-white gradientColor md:whitespace-nowrap;
+  filter: saturate(90%);
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}
+
+.gradientColor {
+  animation: rainbowColor 20s ease-in-out infinite; /* Added 'linear' for smooth transitions */
+  transition-duration: 0.5s;
+}
+
+@keyframes rainbowColor {
+  from {
+    @apply bg-gradient-to-r from-rose-400 to-violet-500 transition;
+  }
+  to {
+    @apply bg-gradient-to-r from-violet-400  to-teal-500 transition; /* Loop back to the beginning color */
+  }
+}

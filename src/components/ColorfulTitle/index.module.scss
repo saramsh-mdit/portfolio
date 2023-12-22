@@ -1,0 +1,28 @@
+.colorFulTitle {
+  @apply font-bold  py-4 gradientColor md:whitespace-nowrap;
+}
+
+.gradientColor {
+  @apply bg-clip-text text-transparent leading-none;
+  animation: rainbowColor 20s ease-in-out infinite; /* Added 'linear' for smooth transitions */
+  transition-duration: 0.5s;
+}
+
+@keyframes rainbowColor {
+  from {
+    @apply bg-gradient-to-r from-rose-400 to-violet-500 transition;
+  }
+  to {
+    @apply bg-gradient-to-r from-violet-400  to-teal-500 transition; /* Loop back to the beginning color */
+  }
+}
+
+.sm {
+  @apply text-sm;
+}
+.md {
+  @apply text-3xl;
+}
+.lg {
+  @apply text-[45px] md:text-[70px];
+}
