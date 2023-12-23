@@ -16,3 +16,7 @@ export const ABOUT_SKILLS = `I started with frontend development, driven by my l
 I'm always open to learning and adapting to new technologies, and I'm excited about the opportunities to contribute and grow in collaborative environments.`;
 
 export const CV_PATH = `/saramsha_shrestha_resume _cv.pdf`;
+
+export const SOCIAL_LINKS = {
+  linkedIn: "https://www.linkedin.com/in/saramsh-shrestha-843119165/",
+};

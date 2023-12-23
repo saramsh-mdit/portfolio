@@ -3,7 +3,7 @@ import BasicImage from "../components/BasicImage";
 import ColorfulTitle from "../components/ColorfulTitle";
 import Button from "../components/DefaultButton";
 import DescriptionCard from "../components/DescriptionCard";
-import { ABOUT_BLOGS, ABOUT_SKILLS, CV_PATH } from "../consts";
+import { ABOUT_BLOGS, ABOUT_SKILLS, CV_PATH, SOCIAL_LINKS } from "../consts";
 import MainWrapper from "../layouts/MainWrapper.astro";
 ---
 
@@ -27,8 +27,8 @@ import MainWrapper from "../layouts/MainWrapper.astro";
           <a href={CV_PATH}>
             <Button>Download My Resume</Button>
           </a>
-          <a href="/blog">
-            <button class="btn">See Blogs</button>
+          <a href={SOCIAL_LINKS.linkedIn}>
+            <button class="btn">Visit My Linked In</button>
           </a>
         </div>
       </DescriptionCard>
@@ -62,4 +62,3 @@ import MainWrapper from "../layouts/MainWrapper.astro";
     </div>
   </article>
 </MainWrapper>
- ../components/DefaultButton
