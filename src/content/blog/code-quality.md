@@ -2,7 +2,7 @@
 title: 'Increase code quality “Blazing Fast”'
 description: 'Increase code quality “Blazing Fast”'
 pubDate: 'Jul 08 2022'
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/blog_placeholder.jpg'
 ---
 
 I have been coding for the past 2 yrs and these are some simple things I have observed to increase readability “blazing fast”. Code readability increases maintainability and code quality.

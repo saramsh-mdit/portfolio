@@ -2,7 +2,7 @@
 title: "Typescript Beginner's Guide For JavaScript Developers."
 description: "Typescript Beginner's Guide For JavaScript Developers."
 pubDate: 'Jul 22 2022'
-heroImage: '/ts-guide.jpg'
+heroImage: '/ts-guide.webp'
 ---
 
 I will use TS for Typescript and JS for JavaScript or (ES6) interchangeability.
